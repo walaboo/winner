@@ -1,0 +1,224 @@
+.links li a {
+    color: #5d5d5d; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: black;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 11px;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 13px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page header .logo {
+  color: brown;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+
+.landing-page header .links li {
+  margin-left: 35px;
+  color: black  ;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: black;
+  background-color: red;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: brown;
+}
+
+.projects-section h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.projects-section h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ff4a57;
+    margin: 8px auto 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.project-info p {
+    font-size: 1em;
+    color: #666;
+}
+
+.project-type {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #ff4a57;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff4a57;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+.footer{
+background:grey;
+padding:25px 0px;
+font-family: 'play', fantasy;
+text-align: center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+font-size:1.2em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:black;
+transition:1s;
+}
+
+.footer .row a:hover{
+color:red;
+}
+
+.footer .row ul{
+width:200%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 20px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 2.5%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:center;
+padding:4%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 1px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
